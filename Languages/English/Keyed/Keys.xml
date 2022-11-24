@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Meteo_letterTitle>Meteo Storm</Meteo_letterTitle>
+  <Meteo_modVersion>Installed mod-version: {0}</Meteo_modVersion>
+  <Meteo_interval>The time from the warning to the Meteo drop (default : 7.5)</Meteo_interval>
+  <Meteo_interval_tt>It is not an absolute value. This value is determined by the storyteller difficulty.</Meteo_interval_tt>
+  <Meteo_letterDesc>A huge Meteor is approaching. Meteor will fall to within a few seconds and cause a huge explosion at the touch of the ground.\nYou should now evacuate each settler into a nearby building or a walled mountain.</Meteo_letterDesc>
+  <RedThunderstorm_letterTitle>Red Thunderstorm</RedThunderstorm_letterTitle>
+  <RedThunderstorm_letterDesc>It is a storm with tremendous rain and lightning. Settlement speed and shooting accuracy are greatly reduced.\n I think it might be a good chance to get power through a lightning power generator.</RedThunderstorm_letterDesc>
+</LanguageData>

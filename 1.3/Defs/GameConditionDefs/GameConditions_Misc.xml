@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GameConditionDef>
+    <defName>MeteorStorm</defName>
+    <conditionClass>MeteorIncident.GameCondition_MeteorStorm</conditionClass>
+    <label>meteor storm</label>
+    <description>Meteor storm is blasting the area with meteors.</description>
+    <endMessage>Meteor storm is over.</endMessage>
+    <preventRain>true</preventRain>
+    <canBePermanent>false</canBePermanent>
+  </GameConditionDef>
+</Defs>

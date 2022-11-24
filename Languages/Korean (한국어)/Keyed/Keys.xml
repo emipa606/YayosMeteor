@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Meteo_letterTitle>메테오 폭풍</Meteo_letterTitle>
+  <Meteo_letterDesc>거대한 메테오가 접근중 입니다. 메테오는 몇초 이내로 떨어질것이며 지면에 닿는 순간 엄청난 폭발을 일으킬것 입니다.\n지금 당장 각각의 정착민들을 가까운 건물 안이나 벽으로 둘러쌓인 산으로 대피시켜야 합니다.</Meteo_letterDesc>
+  <RedThunderstorm_letterTitle>붉은 벼락폭풍</RedThunderstorm_letterTitle>
+  <RedThunderstorm_letterDesc>엄청난 비와 벼락을 동반한 폭풍입니다. 정착민들의 이동속도와 사격 정확도가 크게 감소합니다.\n낙뢰발전기를 통해 전력을 얻을 좋은 기회가 될 수도 있을 것 같습니다.</RedThunderstorm_letterDesc>
+</LanguageData>

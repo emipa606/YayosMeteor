@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WindTurbine_Poison.label>번화계 풍력 발전기</WindTurbine_Poison.label>
+  <WindTurbine_Poison.description>우주선에서 떨어진 발전기 입니다. 오염되어 30타일 주변 식물을 죽여나가지만 훨씬 더 많은 전력을 생산합니다.</WindTurbine_Poison.description>
+  <SolarGenerator_Poison.label>번화계 태양열 발전기</SolarGenerator_Poison.label>
+  <SolarGenerator_Poison.description>우주선에서 떨어진 발전기 입니다. 오염되어 30타일 주변 식물을 죽여나가지만 훨씬 더 많은 전력을 생산합니다.</SolarGenerator_Poison.description>
+</LanguageData>
