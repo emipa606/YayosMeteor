@@ -24,4 +24,9 @@ public class Meteor_Settings : ModSettings
 
         ls.End();
     }
+
+    public override void ExposeData()
+    {
+        Scribe_Values.Look(ref MeteorDelay, "MeteorDelay", 8);
+    }
 }
