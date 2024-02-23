@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -9,10 +10,11 @@ public class IncidentWorker_MeteorStormCondition : IncidentWorker
 {
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
-        GameCondition_MeteorStorm.nextMeteorTicks =
-            Find.TickManager.TicksGame + GameCondition_MeteorStorm.nextMeteorTicksReset;
         var target = (Map)parms.target;
-        var duration = Mathf.RoundToInt(def.durationDays.RandomInRange * 60000f);
+        var duration = Mathf.RoundToInt(def.durationDays.RandomInRange * GenDate.TicksPerDay);
+        GameCondition_MeteorStorm.nextMeteorTicks = Find.TickManager.TicksGame +
+                                                    Mathf.Clamp(GameCondition_MeteorStorm.nextMeteorTicksReset, 1,
+                                                        (int)Math.Round(duration * 0.9f));
         var conditionMeteor =
             (GameCondition_MeteorStorm)GameConditionMaker.MakeCondition(GameConditionDef.Named("MeteorStorm"),
                 duration);

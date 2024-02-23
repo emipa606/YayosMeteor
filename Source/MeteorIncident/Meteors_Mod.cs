@@ -14,7 +14,7 @@ public class Meteors_Mod : Mod
     {
         settings = GetSettings<Meteor_Settings>();
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(ModLister.GetActiveModWithIdentifier("Mlie.YayosMeteor"));
+            VersionFromManifest.GetVersionFromModMetaData(modContentPack.ModMetaData);
     }
 
     public override string SettingsCategory()

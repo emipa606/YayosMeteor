@@ -69,7 +69,7 @@ public class Meteor_Object
             explosionSize *= 0.3f;
             if (Rand.Chance(0.4f))
             {
-                thingList = new List<Thing> { ThingMaker.MakeThing(ThingDefOf.StandingLamp) };
+                thingList = [ThingMaker.MakeThing(ThingDefOf.StandingLamp)];
             }
         }
 

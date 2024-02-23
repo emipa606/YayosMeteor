@@ -7,8 +7,8 @@ namespace MeteorIncident;
 
 public static class Settings_Sliders
 {
-    private static readonly List<int> IntervalValues = new List<int>
-    {
+    private static readonly List<int> IntervalValues =
+    [
         1,
         100,
         200,
@@ -25,7 +25,7 @@ public static class Settings_Sliders
         1500,
         1700,
         1900
-    };
+    ];
 
     public static int MeteorEventFrequencyHorizontalSlider(Rect rect, int freq)
     {
@@ -37,7 +37,7 @@ public static class Settings_Sliders
 
         var str = $"{IntervalValues[index] / 100f:F1} Sec";
         var num2 = index / (float)(IntervalValues.Count - 1);
-        var num3 = Widgets.HorizontalSlider(rect, num2, 0f, 1f, true, str);
+        var num3 = Widgets.HorizontalSlider_NewTemp(rect, num2, 0f, 1f, true, str);
         if (num2 == (double)num3)
         {
             return freq;
