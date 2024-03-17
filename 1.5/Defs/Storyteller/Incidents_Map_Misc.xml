@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>MeteorStorm</defName>
+    <label>meteor storm</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>MeteorIncident.IncidentWorker_MeteorStormCondition</workerClass>
+    <baseChance>2.5</baseChance>
+    <earliestDay>45</earliestDay>
+    <durationDays>
+      <min>0.06</min>
+      <max>0.07</max>
+    </durationDays>
+    <minRefireDays>35</minRefireDays>
+  </IncidentDef>
+</Defs>

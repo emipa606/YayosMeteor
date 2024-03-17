@@ -1,5 +1,8 @@
 # Changelog for YayosMeteor
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.2 - Meteors will now at least trigger once per event, regardless of threat-scale
 
 
