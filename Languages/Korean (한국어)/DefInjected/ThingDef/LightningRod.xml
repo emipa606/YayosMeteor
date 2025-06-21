@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <LightningRod.label>낙뢰 발전기</LightningRod.label>
   <LightningRod.description>낙뢰로 부터 전력을 얻습니다.\n\n번개를 맞으면 일시적으로 강한 전류가 흐르다가 곧 사라집니다. 배터리로 전력을 빠르게 옮겨두는 것이 좋을 것 같습니다.</LightningRod.description>

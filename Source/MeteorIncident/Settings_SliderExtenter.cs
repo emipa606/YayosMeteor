@@ -4,15 +4,6 @@ namespace MeteorIncident;
 
 public static class Settings_SliderExtenter
 {
-    private const float BaseLineHeight = 30f;
-
-    public static void GapGapLine(this Listing_Standard ls, float gapHeight = 12f)
-    {
-        ls.Gap(gapHeight);
-        ls.GapLine(gapHeight);
-        ls.Gap(gapHeight);
-    }
-
     public static void MeteorIntervalSlider(this Listing_Standard ls, string label, ref int val, string tooltip = null)
     {
         var rect = ls.GetRect(30f);

@@ -6,7 +6,7 @@ namespace MeteorIncident;
 
 public class Meteor_Object
 {
-    public void generateMeteor(IntVec3 targetCell, Map targetMap, bool bl_big = true)
+    public static void GenerateMeteor(IntVec3 targetCell, Map targetMap, bool bl_big = true)
     {
         var thingList = new List<Thing>();
 
@@ -41,7 +41,7 @@ public class Meteor_Object
 
 
         var smallMet = ThingDefOf.MeteoriteIncoming;
-        var speed = 0.5f;
+        const float speed = 0.5f;
         smallMet.skyfaller.speed = speed;
 
         var dmg = 0.9f;
@@ -54,8 +54,6 @@ public class Meteor_Object
                 explosionSize = 56f;
                 break;
             case TechLevel.Animal:
-                explosionSize = 36f;
-                break;
             case TechLevel.Neolithic:
                 explosionSize = 36f;
                 break;
@@ -88,7 +86,7 @@ public class Meteor_Object
     }
 
 
-    public void generateMeteor2(IntVec3 targetCell, Map targetMap)
+    public static void GenerateMeteor2(IntVec3 targetCell, Map targetMap)
     {
         var thingList = new List<Thing>
         {
@@ -98,11 +96,11 @@ public class Meteor_Object
         };
 
         var smallMet = ThingDefOf.ShipChunkIncoming;
-        var speed = 0.5f;
+        const float speed = 0.5f;
         smallMet.skyfaller.speed = speed;
 
         smallMet.skyfaller.explosionDamageFactor = 0.01f;
-        float explosionSize = 2;
+        const float explosionSize = 2;
         smallMet.skyfaller.explosionRadius = explosionSize;
         smallMet.skyfaller.shrapnelDistanceFactor = explosionSize;
         smallMet.skyfaller.ticksToImpactRange = new IntRange(15, 125);

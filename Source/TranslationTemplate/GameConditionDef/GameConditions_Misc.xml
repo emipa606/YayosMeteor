@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: meteor storm -->
+  <MeteorStorm.label>meteor storm</MeteorStorm.label>
+  <!-- EN: Meteor storm is blasting the area with meteors. -->
+  <MeteorStorm.description>Meteor storm is blasting the area with meteors.</MeteorStorm.description>
+  <!-- EN: Meteor storm is over. -->
+  <MeteorStorm.endMessage>Meteor storm is over.</MeteorStorm.endMessage>
+</LanguageData>

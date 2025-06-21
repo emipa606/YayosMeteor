@@ -7,7 +7,7 @@ public class Meteor_Settings : ModSettings
 {
     public static int MeteorDelay = 8;
 
-    public void DoWindowContents(Rect rect)
+    public static void DoWindowContents(Rect rect)
     {
         var ls = new Listing_Standard();
         ls.Begin(rect);

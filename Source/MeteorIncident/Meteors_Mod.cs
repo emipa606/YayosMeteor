@@ -8,7 +8,7 @@ public class Meteors_Mod : Mod
 {
     public static string currentVersion;
 
-    public readonly Meteor_Settings settings;
+    private readonly Meteor_Settings settings;
 
     public Meteors_Mod(ModContentPack modContentPack) : base(modContentPack)
     {
@@ -24,7 +24,7 @@ public class Meteors_Mod : Mod
 
     public override void DoSettingsWindowContents(Rect rect)
     {
-        settings.DoWindowContents(rect);
+        Meteor_Settings.DoWindowContents(rect);
         settings.Write();
     }
 }
