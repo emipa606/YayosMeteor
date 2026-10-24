@@ -3,4 +3,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="MeteorIncident/MeteorIncident.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/GameConditionDefs/">
+    <File Path="../1.7/Defs/GameConditionDefs/GameConditions_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/Incidents_Map_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Keys.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

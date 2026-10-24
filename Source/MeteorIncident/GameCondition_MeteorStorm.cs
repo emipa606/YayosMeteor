@@ -41,7 +41,7 @@ public class GameCondition_MeteorStorm : GameCondition
 
     public override void GameConditionTick()
     {
-        if (!(Find.TickManager.TicksGame <= NextMeteorTicks))
+        if (Find.TickManager.TicksGame > NextMeteorTicks)
         {
             if (!foundCell)
             {
